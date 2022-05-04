@@ -25,6 +25,8 @@ namespace Darnton.Blazor.Leaflet.LeafletMap
             return this;
         }
 
+
+
         /// <summary>
         /// Removes the Layer from the <see cref="Map"/> it's currently active on.
         /// </summary>

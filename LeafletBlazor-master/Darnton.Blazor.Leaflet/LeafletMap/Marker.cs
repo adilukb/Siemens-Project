@@ -29,7 +29,7 @@ namespace Darnton.Blazor.Leaflet.LeafletMap
             LatLng = latlng;
             Options = options;
         }
-
+        
         /// <inheritdoc/>
         protected override async Task<IJSObjectReference> CreateJsObjectRef()
         {

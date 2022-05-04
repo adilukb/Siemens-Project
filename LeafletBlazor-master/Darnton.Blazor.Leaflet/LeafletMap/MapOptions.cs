@@ -13,5 +13,6 @@
         /// The initial zoom level of the <see cref="Map"/>.
         /// </summary>
         public int Zoom { get; set; }
+
     }
 }

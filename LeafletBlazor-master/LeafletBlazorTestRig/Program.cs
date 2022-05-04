@@ -21,5 +21,5 @@ namespace LeafletBlazorTestRig
 
             await builder.Build().RunAsync();
         }
-    }
+    } 
 }
