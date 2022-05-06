@@ -5,8 +5,7 @@ using System;
 using System.Threading.Tasks;
 using System.IO;
 using System.Collections.Generic;
-
-
+using System.Data.SQLite;
 
 namespace LeafletBlazorTestRig.Pages
 {
@@ -21,7 +20,7 @@ namespace LeafletBlazorTestRig.Pages
 
         public IndexBase() : base()
         {
-            var mapCentre = new LatLng(46, 25); // Centred on Romania
+            var mapCentre = new LatLng(46, 25); // Centered on Romania
             MapStateViewModel = new MapStateViewModel
             {
                 MapCentreLatitude = mapCentre.Lat,
@@ -45,7 +44,7 @@ namespace LeafletBlazorTestRig.Pages
 
             MarkerViewModel = new MarkerViewModel();
 
-           
+
         }
 
         protected async void GetMapState()
@@ -66,69 +65,40 @@ namespace LeafletBlazorTestRig.Pages
             await PositionMap.SetView(mapCentre, MapStateViewModel.Zoom);
         }
 
-        protected async void AddMarkerAtMapCenter()
+       
+        protected async void AddMarkerData()
         {
 
+         
 
 
-            /*        var path = @"C:\Users\adiluk\Desktop\project\csvTestMark.csv";
-                    using (TextFieldParser csvParser = new TextFieldParser(path))
-                    {
+          /*  SQLiteConnection FileSQL;
+            FileSQL = new SQLiteConnection("Data Source = ./DataBaseSQL.db");
 
-                        csvParser.SetDelimiters(new string[] { "," });
-                        csvParser.HasFieldsEnclosedInQuotes = true;
+            using var SQLConnectData = new SQLiteConnection(FileSQL);*/
 
-                        // Skip the row with the column names
-                        csvParser.ReadLine();
-
-                    while (!csvParser.EndOfData)
-                           {
-                            // Read current line fields, pointer moves to the next line
-                            string[] values = csvParser.ReadFields();
-                            var mapIndex= new LatLng(Convert.ToDouble(values[0]), Convert.ToDouble(values[1]));
-                                 var markerIndex = new Marker(mapIndex, new MarkerOptions
-                                 {
-                                     Keyboard = Convert.ToBoolean(values[2]),
-                                     Title  = values[3],
-                                     Alt = values[4],
-                                     ZIndexOffset = Convert.ToInt16(values[5]),
-                                     Opacity = Convert.ToDouble(values[6]),
-                                     RiseOnHover = Convert.ToBoolean(values[7]),
-                                     RiseOffset = Convert.ToInt16(values[8]),
-                                 });        
-                                 markerIndex.AddTo(PositionMap);
-                             }
-                        }
-            */
-
-            /*   using (var readCSV = new StreamReader(@"C:\Users\adiluk\Desktop\project\csvTestMark.csv"))
-                {
-
-                    while (!readCSV.EndOfStream)
-                    {
-                        var line = readCSV.ReadLine();
-                        var values = line.Split(',');
-                        var mapIndex= new LatLng(Convert.ToDouble(values[0]), Convert.ToDouble(values[1]));
-                        var markerIndex = new Marker(mapIndex, new MarkerOptions
-                        {
-                            Keyboard = Convert.ToBoolean(values[2]),
-                            Title  = values[3],
-                            Alt = values[4],
-                            ZIndexOffset = Convert.ToInt16(values[5]),
-                            Opacity = Convert.ToDouble(values[6]),
-                            RiseOnHover = Convert.ToBoolean(values[7]),
-                            RiseOffset = Convert.ToInt16(values[8]),
-                        });        
-                        markerIndex.AddTo(PositionMap);
-                    }
-                }*/
-
-            List<int> LatitudeList = new List<int>() { 44, 42, 43, 45, 46, 67 }; 
-            List<int> LongitudeList = new List<int>() { 22, 2, 23, 45, 36, 27 }; 
-            
-            for(int i = 0; i < LatitudeList.Count; i++)
+            using (var SQLConnectData = new SQLiteConnection("Data Source = DataBaseSQL.db"))
             {
-                
+                SQLConnectData.Open();
+
+        
+                string statementQuery = "SELECT * FROM MarkerData";
+
+                using var commandSQL = new SQLiteCommand(statementQuery, SQLConnectData);
+                using SQLiteDataReader readerSQL = commandSQL.ExecuteReader();
+
+                List<int> LatitudeList  = new List<int>();
+                List<int> LongitudeList = new List<int>();
+
+
+                while (readerSQL.Read())
+                {
+                    LatitudeList.Add(readerSQL.GetInt32(0));
+                    LongitudeList.Add(readerSQL.GetInt32(1));
+                }
+
+                for (int i = 0; i < LatitudeList.Count; i++)
+                {
                     var Test = new LatLng(LatitudeList[i], LongitudeList[i]);
                     var marktest1 = new Marker(Test, new MarkerOptions
                     {
@@ -141,35 +111,36 @@ namespace LeafletBlazorTestRig.Pages
                         RiseOffset = MarkerViewModel.RiseOffset,
                     });
                     await marktest1.AddTo(PositionMap);
-                
+                }
             }
 
 
-                /*var mapCentre = new LatLng(46, 22);
-                var mapTest = new LatLng(45, 23);
-                var marker1 = new Marker(mapCentre, new MarkerOptions
-                {
-                    Keyboard = MarkerViewModel.Keyboard,
-                    Title = MarkerViewModel.Title,
-                    Alt = MarkerViewModel.Alt,
-                    ZIndexOffset = MarkerViewModel.ZIndexOffset,
-                    Opacity = MarkerViewModel.Opacity,
-                    RiseOnHover = MarkerViewModel.RiseOnHover,
-                    RiseOffset = MarkerViewModel.RiseOffset,
-                });
-                var marker2 = new Marker(mapTest, new MarkerOptions
-                {
-                    Keyboard = MarkerViewModel.Keyboard,
-                    Title = MarkerViewModel.Title,
-                    Alt = MarkerViewModel.Alt,
-                    ZIndexOffset = MarkerViewModel.ZIndexOffset,
-                    Opacity = MarkerViewModel.Opacity,
-                    RiseOnHover = MarkerViewModel.RiseOnHover,
-                    RiseOffset = MarkerViewModel.RiseOffset,
-                });
-                await marker1.AddTo(PositionMap);
-                await marker2.AddTo(PositionMap);*/
-            
+
+            //List implementation
+            /*   List<int> LatitudeList = new List<int>() { 44, 42, 43, 45, 46, 67 };
+               List<int> LongitudeList = new List<int>() { 22, 2, 23, 45, 36, 27 };
+
+
+               for (int i = 0; i < LatitudeList.Count; i++)
+               {
+
+                   var Test = new LatLng(LatitudeList[i], LongitudeList[i]);
+                   var marktest1 = new Marker(Test, new MarkerOptions
+                   {
+                       Keyboard = MarkerViewModel.Keyboard,
+                       Title = MarkerViewModel.Title,
+                       Alt = MarkerViewModel.Alt,
+                       ZIndexOffset = MarkerViewModel.ZIndexOffset,
+                       Opacity = MarkerViewModel.Opacity,
+                       RiseOnHover = MarkerViewModel.RiseOnHover,
+                       RiseOffset = MarkerViewModel.RiseOffset,
+                   });
+                   await marktest1.AddTo(PositionMap);
+
+               }*/
+
+
+
 
         }
         
