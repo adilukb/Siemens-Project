@@ -5,7 +5,7 @@ using System;
 using System.Threading.Tasks;
 using System.IO;
 using System.Collections.Generic;
-using System.Data.SQLite;
+using System.Data.SqlClient;
 
 namespace LeafletBlazorTestRig.Pages
 {
@@ -69,75 +69,93 @@ namespace LeafletBlazorTestRig.Pages
         protected async void AddMarkerData()
         {
 
-         
 
 
-          /*  SQLiteConnection FileSQL;
-            FileSQL = new SQLiteConnection("Data Source = ./DataBaseSQL.db");
 
-            using var SQLConnectData = new SQLiteConnection(FileSQL);*/
+            /*  SQLiteConnection FileSQL;
+              FileSQL = new SQLiteConnection("Data Source = ./DataBaseSQL.db");
 
-            using (var SQLConnectData = new SQLiteConnection("Data Source = DataBaseSQL.db"))
-            {
-                SQLConnectData.Open();
+              using var SQLConnectData = new SQLiteConnection(FileSQL);*/
 
-        
-                string statementQuery = "SELECT * FROM MarkerData";
-
-                using var commandSQL = new SQLiteCommand(statementQuery, SQLConnectData);
-                using SQLiteDataReader readerSQL = commandSQL.ExecuteReader();
-
-                List<int> LatitudeList  = new List<int>();
-                List<int> LongitudeList = new List<int>();
+            /* using (var SQLConnectData = new SQLiteConnection("Data Source = C:/Users/adiluk/source/repos/Siemens-Project/LeafletBlazor-master/LeafletBlazorTestRig/DataBaseSQL.db"))
+             {
+                 SQLConnectData.Open();
 
 
-                while (readerSQL.Read())
-                {
-                    LatitudeList.Add(readerSQL.GetInt32(0));
-                    LongitudeList.Add(readerSQL.GetInt32(1));
-                }
+                 string statementQuery = "SELECT * FROM MarkerData";
 
-                for (int i = 0; i < LatitudeList.Count; i++)
-                {
-                    var Test = new LatLng(LatitudeList[i], LongitudeList[i]);
-                    var marktest1 = new Marker(Test, new MarkerOptions
-                    {
-                        Keyboard = MarkerViewModel.Keyboard,
-                        Title = MarkerViewModel.Title,
-                        Alt = MarkerViewModel.Alt,
-                        ZIndexOffset = MarkerViewModel.ZIndexOffset,
-                        Opacity = MarkerViewModel.Opacity,
-                        RiseOnHover = MarkerViewModel.RiseOnHover,
-                        RiseOffset = MarkerViewModel.RiseOffset,
-                    });
-                    await marktest1.AddTo(PositionMap);
-                }
-            }
+                 using var commandSQL = new SQLiteCommand(statementQuery, SQLConnectData);
+                 using SQLiteDataReader readerSQL = commandSQL.ExecuteReader();
 
+                 List<int> LatitudeList  = new List<int>();
+                 List<int> LongitudeList = new List<int>();
+
+
+                 while (readerSQL.Read())
+                 {
+                     LatitudeList.Add(readerSQL.GetInt32(0));
+                     LongitudeList.Add(readerSQL.GetInt32(1));
+                 }
+
+                 for (int i = 0; i < LatitudeList.Count; i++)
+                 {
+                     var Test = new LatLng(LatitudeList[i], LongitudeList[i]);
+                     var marktest1 = new Marker(Test, new MarkerOptions
+                     {
+                         Keyboard = MarkerViewModel.Keyboard,
+                         Title = MarkerViewModel.Title,
+                         Alt = MarkerViewModel.Alt,
+                         ZIndexOffset = MarkerViewModel.ZIndexOffset,
+                         Opacity = MarkerViewModel.Opacity,
+                         RiseOnHover = MarkerViewModel.RiseOnHover,
+                         RiseOffset = MarkerViewModel.RiseOffset,
+                     });
+                     await marktest1.AddTo(PositionMap);
+                 }
+             }*/
+
+            //Stabilirea conexiunii cu Baza de Date SQL
+            String str;
+            SqlConnection myConn = new SqlConnection("Server=localhost;Integrated security=SSPI;database=master");
+            
+            str = "CREATE DATABASE MyDatabase ON PRIMARY " +
+             "(NAME = MyDatabase_Data, " +
+             "FILENAME = 'C:\\MyDatabaseData.mdf', " +
+             "SIZE = 2MB, MAXSIZE = 10MB, FILEGROWTH = 10%)" +
+             "LOG ON (NAME = MyDatabase_Log, " +
+             "FILENAME = 'C:\\MyDatabaseLog.ldf', " +
+             "SIZE = 1MB, " +
+             "MAXSIZE = 5MB, " +
+             "FILEGROWTH = 10%)";
+
+            SqlCommand myCommand = new SqlCommand(str, myConn);
+            
+                myConn.Open();
+                myCommand.ExecuteNonQuery();
 
 
             //List implementation
-            /*   List<int> LatitudeList = new List<int>() { 44, 42, 43, 45, 46, 67 };
-               List<int> LongitudeList = new List<int>() { 22, 2, 23, 45, 36, 27 };
+            List<int> LatitudeList = new List<int>() { 44, 42, 43, 45, 46, 67 };
+            List<int> LongitudeList = new List<int>() { 22, 2, 23, 45, 36, 27 };
 
 
-               for (int i = 0; i < LatitudeList.Count; i++)
-               {
+            for (int i = 0; i < LatitudeList.Count; i++)
+            {
 
-                   var Test = new LatLng(LatitudeList[i], LongitudeList[i]);
-                   var marktest1 = new Marker(Test, new MarkerOptions
-                   {
-                       Keyboard = MarkerViewModel.Keyboard,
-                       Title = MarkerViewModel.Title,
-                       Alt = MarkerViewModel.Alt,
-                       ZIndexOffset = MarkerViewModel.ZIndexOffset,
-                       Opacity = MarkerViewModel.Opacity,
-                       RiseOnHover = MarkerViewModel.RiseOnHover,
-                       RiseOffset = MarkerViewModel.RiseOffset,
-                   });
-                   await marktest1.AddTo(PositionMap);
+                var Test = new LatLng(LatitudeList[i], LongitudeList[i]);
+                var marktest1 = new Marker(Test, new MarkerOptions
+                {
+                    Keyboard = MarkerViewModel.Keyboard,
+                    Title = MarkerViewModel.Title,
+                    Alt = MarkerViewModel.Alt,
+                    ZIndexOffset = MarkerViewModel.ZIndexOffset,
+                    Opacity = MarkerViewModel.Opacity,
+                    RiseOnHover = MarkerViewModel.RiseOnHover,
+                    RiseOffset = MarkerViewModel.RiseOffset,
+                });
+                await marktest1.AddTo(PositionMap);
 
-               }*/
+            }
 
 
 
