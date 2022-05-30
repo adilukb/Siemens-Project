@@ -101,32 +101,28 @@ namespace LeafletBlazorTestRig.Pages
             
             var action = new MarkersAction();
             var markers = await action.GetMarkers();
-            if (markers.Length > 0)
-            {
-                latLng = new LatLng(markers[0].Latitude, markers[0].Longitude);
-                MarkerViewModel = markers[0];
-            }
+
 
             
                         //var mapCentre = await PositionMap.GetCenter();
-
-            var marker = new Marker(latLng, new MarkerOptions
+            for(int i = 0; i < markers.Length; i++)
             {
-                Keyboard = MarkerViewModel.Keyboard,
-                Title = MarkerViewModel.Title,
-                Alt = MarkerViewModel.Alt,
-                ZIndexOffset = MarkerViewModel.ZIndexOffset,
-                Opacity = MarkerViewModel.Opacity,
-                RiseOnHover = MarkerViewModel.RiseOnHover,
-                RiseOffset = MarkerViewModel.RiseOffset,
-            });
-
-
-            await marker.AddTo(PositionMap);
-
-            var popupContent = $"<strong>Hello - {MarkerViewModel.Title}!</strong><br />I am a popup.";
-            await marker.BindPopup(popupContent);
-
+                latLng = new LatLng(markers[i].Latitude, markers[i].Longitude);
+                MarkerViewModel = markers[i];
+                var marker = new Marker(latLng, new MarkerOptions
+                {
+                    Keyboard = MarkerViewModel.Keyboard,
+                    Title = MarkerViewModel.Title,
+                    Alt = MarkerViewModel.Alt,
+                    ZIndexOffset = MarkerViewModel.ZIndexOffset,
+                    Opacity = MarkerViewModel.Opacity,
+                    RiseOnHover = MarkerViewModel.RiseOnHover,
+                    RiseOffset = MarkerViewModel.RiseOffset,
+                });
+                await marker.AddTo(PositionMap);
+                var popupContent = $"<strong>Hello - {MarkerViewModel.Title}!</strong><br />I am a popup.";
+                await marker.BindPopup(popupContent);
+            }
 
 
             //var action = new MarkersAction();
@@ -135,10 +131,10 @@ namespace LeafletBlazorTestRig.Pages
             //{
             //    this.InputValue = str[0].Title;
             //}
-         
 
-            
-            
+
+
+
             //TODO: implement popup object
             //var popup = new PopUp();
             //await popup.SetContent(marker, "sfdsgds");

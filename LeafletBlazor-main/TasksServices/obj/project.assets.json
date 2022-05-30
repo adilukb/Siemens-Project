@@ -9694,11 +9694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adiluk\\Documents\\MapEventProject\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+      "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
       "projectName": "TasksServices",
-      "projectPath": "C:\\Users\\adiluk\\Documents\\MapEventProject\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+      "projectPath": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
       "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adiluk\\Documents\\MapEventProject\\LeafletBlazor-main\\TasksServices\\obj\\",
+      "outputPath": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\TasksServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",

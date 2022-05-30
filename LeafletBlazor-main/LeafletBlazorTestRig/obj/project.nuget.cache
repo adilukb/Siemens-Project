@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0aYd6vXL6LOXMj6/MxLV2G1y+vDLdfxQEu+3p/gmAfkqci+rGA+AyjGJU+vP4OompjTsXWEyhPvhpt1zeACgvg==",
+  "dgSpecHash": "sYE3mplZWSfh481kXU4h6JBoYiN5S18XTFcsLxUpWeklMES4dxYltV3SnaHMseTW/uoZiubzYCHH7WFybYRCvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adiluk\\Documents\\MapEventProject\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
+  "projectFilePath": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adiluk\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0\\microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\adiluk\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.0\\microsoft.aspnetcore.components.5.0.0.nupkg.sha512",

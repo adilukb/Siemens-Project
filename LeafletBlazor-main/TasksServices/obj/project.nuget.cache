@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mwDSXNb5P8ywOZLIgn9a6nS1OJnxjIKmI1oDJGKW+b0rPOstwNbEgg83VGQqNLlQ3aGNQePXpOxVQdUgZbyqKw==",
+  "dgSpecHash": "Yot1WEIBGN8NIZCmidmMtjpTxI+OcQpkIW1Yt+wnzpLnlF7Qrj37B+m7SbeHEjn5obO8bLbYPjq4DhW4oyiEBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adiluk\\Documents\\MapEventProject\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+  "projectFilePath": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adiluk\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\adiluk\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
