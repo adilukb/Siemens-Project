@@ -35,7 +35,7 @@ namespace TasksServices.Repository
             string path = $"{Directory.GetCurrentDirectory()}\\Resources\\{data}";
             string[] readText = File.ReadAllLines(path);
             var csv = readText.Select(s => s.Split(',')).ToArray();
-            return GetModel(csv); ;
+            return GetModel(csv);
         }
 
         private List<TaskModel> GetModel(string[][] csv)

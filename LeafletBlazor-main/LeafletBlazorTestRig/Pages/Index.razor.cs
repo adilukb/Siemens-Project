@@ -105,7 +105,7 @@ namespace LeafletBlazorTestRig.Pages
 
             
                         //var mapCentre = await PositionMap.GetCenter();
-            for(int i = 0; i < markers.Length; i++)
+            for(int i = 1; i < markers.Length; i++)
             {
                 latLng = new LatLng(markers[i].Latitude, markers[i].Longitude);
                 MarkerViewModel = markers[i];
@@ -120,7 +120,7 @@ namespace LeafletBlazorTestRig.Pages
                     RiseOffset = MarkerViewModel.RiseOffset,
                 });
                 await marker.AddTo(PositionMap);
-                var popupContent = $"<strong>Hello - {MarkerViewModel.Title}!</strong><br />I am a popup.";
+                var popupContent = $"{MarkerViewModel.Title}";
                 await marker.BindPopup(popupContent);
             }
 

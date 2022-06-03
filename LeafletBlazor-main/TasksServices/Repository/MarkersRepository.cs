@@ -1,5 +1,8 @@
-﻿using System;
+﻿
+using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using TasksServices.Model;
@@ -29,24 +32,34 @@ namespace TasksServices.Repository
 
         private List<MarkerViewModel> GetModel()
         {
-            List<double> LatitudeList = new List<double>() { 46.358, 45.443, 47.661, 45.60, 47.655, 46.968, 45.508, 45.591, 45.408, 47.574, 47.651, 46.714, 46.679, 42 };
-            List<double> LongitudeList = new List<double>() { 22.734, 25.572, 23.696, 24.613, 24.660, 25.55, 25.357, 25.525, 25.515, 25.117, 23.830, 23.639, 25.514, 24.545 };
-            //Wellington: 41.2924° S, 174.7787°
-            var mvmList = new List<MarkerViewModel>();
+            var path = @"C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\TasksServices\Resources\markerData.csv"; // Habeeb, "Dubai Media City, Dubai"
+            TextFieldParser csvParser = new TextFieldParser(path);
             
-            //mvm.Latitude = -42;
-            //mvm.Longitude = 175;
-            for (int i = 0; i < LatitudeList.Count; i++)
-            {
-                var mvm = new MarkerViewModel();
-                mvm.Latitude = LatitudeList[i];
-                mvm.Longitude = LongitudeList[i];
-                mvm.Title = "Wellington NZ" + i;
-                mvmList.Add(mvm);
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+                var mvmList = new List<MarkerViewModel>();
+                // Skip the row with the column names
+                csvParser.ReadLine();
+
+                while (!csvParser.EndOfData)
+                {
+                    var mvm = new MarkerViewModel();
+                    // Read current line fields, pointer moves to the next line.
+                    string[] fields = csvParser.ReadFields();
+                   
+                    mvm.Latitude = double.Parse(fields[0]);
+                    mvm.Longitude = double.Parse(fields[1]);
+                    mvm.Title = fields[2];
+                    mvmList.Add(mvm);
+                }
+
+                return mvmList;
             }
 
-            return mvmList;
-        }
+
+
+        
 
         private List<MarkerViewModel> Model
         {

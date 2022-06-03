@@ -50,6 +50,7 @@
           "System.Security": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
           "System.Transactions": "4.0.0.0",
+          "Microsoft.VisualBasic": "10.0.0.0",
           "System.Core": "4.0.0.0",
           "System.Data": "4.0.0.0",
           "System": "4.0.0.0",
@@ -213,6 +214,11 @@
       "System.Transactions/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.6.1/System.Transactions.dll": {}
+        }
+      },
+      "Microsoft.VisualBasic/10.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.6.1/Microsoft.VisualBasic.dll": {}
         }
       },
       "System.Core/4.0.0.0": {
@@ -2125,6 +2131,7 @@
           "System.Security": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
           "System.Transactions": "4.0.0.0",
+          "Microsoft.VisualBasic": "10.0.0.0",
           "System.Core": "4.0.0.0",
           "System.Data": "4.0.0.0",
           "System": "4.0.0.0",
@@ -4855,6 +4862,11 @@
       "sha512": ""
     },
     "System.Transactions/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic/10.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
