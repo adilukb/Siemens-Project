@@ -18,7 +18,7 @@ namespace LeafletBlazorTestRig.Pages
 
         public IndexBase() : base()
         {
-            var mapCentre = new LatLng(-42, 175); // Centred on New Zealand
+            var mapCentre = new LatLng(46, 25); // Centred on New Zealand
             MapStateViewModel = new MapStateViewModel
             {
                 MapCentreLatitude = mapCentre.Lat,
