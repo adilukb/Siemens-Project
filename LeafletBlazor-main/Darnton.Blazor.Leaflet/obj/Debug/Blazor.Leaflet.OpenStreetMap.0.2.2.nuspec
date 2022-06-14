@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Blazor.Leaflet.OpenStreetMap</id>
+    <version>0.2.2</version>
+    <authors>Bernard Darnton, Stoyan Bonchev</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Leaflet.js Interop Library for Blazor - .NET 5</description>
+    <copyright>Darnton under MIT License</copyright>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.AspNetCore.Components" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.4" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http.Json" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.dll" target="lib\net5.0\Blazor.Leaflet.OpenStreetMap.dll" />
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.xml" target="lib\net5.0\Blazor.Leaflet.OpenStreetMap.xml" />
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.Blazor.Leaflet.OpenStreetMap.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.build.Blazor.Leaflet.OpenStreetMap.props" target="build\Blazor.Leaflet.OpenStreetMap.props" />
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Blazor.Leaflet.OpenStreetMap.props" target="buildMultiTargeting\Blazor.Leaflet.OpenStreetMap.props" />
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Blazor.Leaflet.OpenStreetMap.props" target="buildTransitive\Blazor.Leaflet.OpenStreetMap.props" />
+    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\wwwroot\js\leaflet-map.js" target="staticwebassets\js\leaflet-map.js" />
+  </files>
+</package>

@@ -1,0 +1,18 @@
+﻿@page "/"
+@inherits IndexBase
+@inject HttpClient Http
+
+<div class="my-3">
+    <LeafletMap Map="PositionMap" TileLayer="OpenStreetMapsTileLayer" />
+</div>
+
+
+<div class="my-3">
+    <EditForm Model="MarkerViewModel" OnSubmit="AddMarkerAtMapCenter">
+        <button id = "btnStart" onclick="style.display = 'none'" type="submit" class="btn btn-primary my-3" >Show Markers</button>
+        
+    </EditForm>
+
+
+
+</div>
