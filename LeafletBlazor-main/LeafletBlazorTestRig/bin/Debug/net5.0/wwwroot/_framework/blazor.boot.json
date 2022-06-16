@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-RvlJgNNOrNqPypkseRqbe69kNd7hnKW0u6Bmt1305d4=",
       "netstandard.dll": "sha256-Ttq9E+RchoLMvC6pS8ktXuaz1r51vG7wSm1emPBPRrk=",
       "System.Private.CoreLib.dll": "sha256-7y7hjQvy9SAXBmGIcqlrFwPQioCDSax5WwjUDJYfRAk=",
-      "Blazor.Leaflet.OpenStreetMap.dll": "sha256-sD0HzpvmmEi2EOkuWQY5XA1Fwx0rbnSgOQ7sGIiHjwE=",
-      "LeafletBlazorTestRig.dll": "sha256-aoAFgrscG9Cnkq9ctuelz76K8fUxL3dB9rZfelIk2xM="
+      "Blazor.Leaflet.OpenStreetMap.dll": "sha256-k5WP2jBcQ\/LcOYl0cYd0k+s0WBcT4mBzp28i0E1tejU=",
+      "LeafletBlazorTestRig.dll": "sha256-WAeuqvEONqD8bRBzk3dIa+id8nsmzLiIAfy+hz14PR8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Blazor.Leaflet.OpenStreetMap.pdb": "sha256-3ALd2dn26eSYuFmRsuLRy0v+mmyVwI87HH4QviQvd6s=",
-      "LeafletBlazorTestRig.pdb": "sha256-FhwDzeJXQUEIpiromVrWGZZGJg\/jtbo4pm9Yo+rBqDw="
+      "Blazor.Leaflet.OpenStreetMap.pdb": "sha256-iHUBtkKd7mi9X1vQW2GUNAZbz1n5e5Nxrn2u9OvdAfU=",
+      "LeafletBlazorTestRig.pdb": "sha256-7qppbawXdY9ut+7SLKTDvP3pM\/RMhR9lSqpPFOWjwoQ="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-jWuZI+z9wt0OfCMj+W5wh3HN+Ye6efC6YfCUWbBHBa8=",

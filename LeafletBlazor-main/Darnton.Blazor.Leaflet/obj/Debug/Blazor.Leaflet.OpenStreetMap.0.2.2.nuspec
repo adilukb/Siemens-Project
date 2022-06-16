@@ -18,12 +18,12 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.dll" target="lib\net5.0\Blazor.Leaflet.OpenStreetMap.dll" />
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.xml" target="lib\net5.0\Blazor.Leaflet.OpenStreetMap.xml" />
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.Blazor.Leaflet.OpenStreetMap.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.build.Blazor.Leaflet.OpenStreetMap.props" target="build\Blazor.Leaflet.OpenStreetMap.props" />
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Blazor.Leaflet.OpenStreetMap.props" target="buildMultiTargeting\Blazor.Leaflet.OpenStreetMap.props" />
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Blazor.Leaflet.OpenStreetMap.props" target="buildTransitive\Blazor.Leaflet.OpenStreetMap.props" />
-    <file src="C:\Users\adiluk\Desktop\reporepo\LeafletBlazor-main\Darnton.Blazor.Leaflet\wwwroot\js\leaflet-map.js" target="staticwebassets\js\leaflet-map.js" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.dll" target="lib\net5.0\Blazor.Leaflet.OpenStreetMap.dll" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.xml" target="lib\net5.0\Blazor.Leaflet.OpenStreetMap.xml" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.Blazor.Leaflet.OpenStreetMap.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.build.Blazor.Leaflet.OpenStreetMap.props" target="build\Blazor.Leaflet.OpenStreetMap.props" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Blazor.Leaflet.OpenStreetMap.props" target="buildMultiTargeting\Blazor.Leaflet.OpenStreetMap.props" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Blazor.Leaflet.OpenStreetMap.props" target="buildTransitive\Blazor.Leaflet.OpenStreetMap.props" />
+    <file src="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\wwwroot\js\leaflet-map.js" target="staticwebassets\js\leaflet-map.js" />
   </files>
 </package>

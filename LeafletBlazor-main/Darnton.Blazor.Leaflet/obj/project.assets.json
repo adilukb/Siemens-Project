@@ -3254,11 +3254,11 @@
   "project": {
     "version": "0.2.2",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj",
+      "projectUniqueName": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj",
       "projectName": "Blazor.Leaflet.OpenStreetMap",
-      "projectPath": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj",
+      "projectPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj",
       "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adiluk\\Desktop\\reporepo\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\obj\\",
+      "outputPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
