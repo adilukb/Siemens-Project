@@ -91,20 +91,23 @@ namespace LeafletBlazorTestRig.Pages
                 await marker.BindPopup(popupContent);
                 await marker.DisposeAsync();
             }
-
+      
         }
-
 
         private void PositionMap_OnMoveEnd(object sender, EventArgs e)
         {
             Console.WriteLine("Map_OnMoveEnd");
         }
 
+        protected override Task OnAfterRenderAsync(bool firstRender)
+        {
+            AddMarkerAtMapCenter();
+            return Task.CompletedTask;
+        }
 
         private void PositionMap_OnClick(object sender, LeafletMouseEventArgs e)
         {
             Console.WriteLine("Map_OnClick");
-
         }
 
         public async ValueTask DisposeAsync()

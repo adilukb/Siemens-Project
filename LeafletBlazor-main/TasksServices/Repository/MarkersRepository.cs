@@ -6,14 +6,60 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using TasksServices.Model;
+using System.Data.SqlClient;
 
 namespace TasksServices.Repository
 {
     public class MarkersRepository
     {
-        private const string data = "markerData.csv";
-        private List<MarkerViewModel> model;
+        public string connectionString =
+            @"Data Source=DESKTOP-RPB24GK\SQLEXPRESS;Initial Catalog=SkyLocations;Integrated Security=True";
+        public SqlConnection connection;
+        public SqlCommand command;
+        public SqlDataReader reader;
 
+        public MarkersRepository()
+        {
+            connection = new SqlConnection(connectionString);
+            command = connection.CreateCommand();
+            command.CommandType = System.Data.CommandType.Text;
+        }
+
+        private List<MarkerViewModel> GetModel()
+        {
+            command.CommandText = "SELECT Latitude, Longitude, Statiune, Partii, Cazare, Imagine FROM SkiTable";
+            var mvmList = new List<MarkerViewModel>();
+            using (connection)
+            {
+                connection.Open();
+                reader = command.ExecuteReader();
+
+                while(reader.Read())
+                {
+                    var mvm = new MarkerViewModel();
+
+                    mvm.Latitude = reader.GetDouble(0);
+                    mvm.Longitude = reader.GetDouble(1);
+                    mvm.Title = "<strong><center>" + reader.GetString(2) + "</center></strong><p align='left'>Partii:<br>";
+
+                    string s = reader.GetString(3);
+                    string[] subs = s.Split('(', ';');
+
+                    for (int i = 0; i < subs.Length; i += 2)
+                    {
+                        mvm.Title += "<strong>" + subs[i] + "</strong>(" + subs[i + 1] + "<br>";
+                    }
+                    mvm.Title += @"<button class=""btn btn-success"" onclick=""window.open('" + reader.GetString(4).Replace(Environment.NewLine, "") + @"');"">Cazare " + reader.GetString(2) + @"</button>";
+                    mvm.Title += @"<img src=""" + reader.GetString(5) + @""" width = ""300p"" height = ""170p"" alt = Stațiunea " + reader.GetString(2) + @">";
+
+                    mvmList.Add(mvm);
+                }
+
+                return mvmList;
+            }
+        }
+
+        private List<MarkerViewModel> model;
         private static readonly object obj = new object();
         private static MarkersRepository instance = null;
         public static MarkersRepository Instance
@@ -30,42 +76,6 @@ namespace TasksServices.Repository
                 }
             }
         }
-
-        private List<MarkerViewModel> GetModel()
-        {
-            string path = $"{Directory.GetCurrentDirectory()}\\Resources\\{data}";
-            TextFieldParser csvParser = new TextFieldParser(path);
-            csvParser.CommentTokens = new string[] { "#" };
-            csvParser.SetDelimiters(",");
-            csvParser.HasFieldsEnclosedInQuotes = true;
-
-            var mvmList = new List<MarkerViewModel>();
-            csvParser.ReadLine();
-
-            while (!csvParser.EndOfData)
-            {
-                var mvm = new MarkerViewModel();
-                string[] fields = csvParser.ReadFields();
-
-                mvm.Latitude = double.Parse(fields[0]);
-                mvm.Longitude = double.Parse(fields[1]);
-                mvm.Title = "<strong><center>" + fields[2] + "</center></strong><p align='left'>Partii:<br>";
-
-                string s = fields[3];
-                string[] subs = s.Split('(', ';');
-
-                for(int i = 0; i < subs.Length; i+=2)
-                {
-                    mvm.Title += "<strong>" + subs[i] + "</strong>(" + subs[i + 1] + "<br>";
-                }
-                mvm.Title += @"<button class=""btn btn-success"" onclick=""window.open('" + fields[4] + @"')"">Cazare " + fields[2] + @"</button>";
-                mvm.Title += @"<img src=""" + fields[5] + @""" width = ""300p"" height = ""170p"" alt = Stațiunea " + fields[2] + @">";
-
-
-                mvmList.Add(mvm);
-            }
-                return mvmList;
-            }
 
         private List<MarkerViewModel> Model
         {
