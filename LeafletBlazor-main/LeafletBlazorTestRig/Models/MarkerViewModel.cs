@@ -1,4 +1,6 @@
-﻿namespace LeafletBlazorTestRig.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace LeafletBlazorTestRig.Models
 {
     public class MarkerViewModel
     {

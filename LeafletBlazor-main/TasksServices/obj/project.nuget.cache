@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i8R28zPFz93tTokELnttE1gKOk9UAQEprjCH/3tmKezreYNcqhVgaz1QnfWwm9RK3Icf+XOjWLUCfJc7XcINbg==",
+  "dgSpecHash": "OcA3lSMX4JgS25QKShTWja4gSmDX9xAqjyoqXyhhIfDW4sBLSHZkinSC2eAXqIXPb/7SjOrB4d/U889SVHM85g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adiluk\\Desktop\\dupli\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+  "projectFilePath": "C:\\Users\\adiluk\\Desktop\\branch\\Siemens-Project-main\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adiluk\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\adiluk\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
