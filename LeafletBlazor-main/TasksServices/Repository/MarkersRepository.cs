@@ -13,7 +13,7 @@ namespace TasksServices.Repository
     public class MarkersRepository
     {
         public string connectionString =
-            @"Data Source=DESKTOP-RPB24GK\SQLEXPRESS;Initial Catalog=SkyLocations;Integrated Security=True";
+            @"Data Source=DESKTOP-MF0UUMO\SQLEXPRESS;Initial Catalog=SkyLocations;Integrated Security=True";
         public SqlConnection connection;
         public SqlCommand command;
         public SqlDataReader reader;
