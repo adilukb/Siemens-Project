@@ -11,7 +11,7 @@ namespace TasksServices.Controllers
         [HttpGet]
         public void Get()
         {
-            
+
         }
 
         // GET api/counting/5

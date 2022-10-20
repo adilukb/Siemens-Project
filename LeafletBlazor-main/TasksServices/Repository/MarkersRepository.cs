@@ -1,12 +1,7 @@
-﻿
-using Microsoft.VisualBasic.FileIO;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using TasksServices.Model;
 using System.Data.SqlClient;
+using TasksServices.Model;
 
 namespace TasksServices.Repository
 {
@@ -34,7 +29,7 @@ namespace TasksServices.Repository
                 connection.Open();
                 reader = command.ExecuteReader();
 
-                while(reader.Read())
+                while (reader.Read())
                 {
                     var mvm = new MarkerViewModel();
 

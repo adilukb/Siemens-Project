@@ -160,3 +160,4 @@ C:\Users\bogda\Documents\GitHub\Siemens-Project\LeafletBlazor-main\Darnton.Blazo
 C:\Users\bogda\Documents\GitHub\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\ref\Blazor.Leaflet.OpenStreetMap.dll
 C:\Users\bogda\Documents\GitHub\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.xml
 C:\Users\bogda\Documents\GitHub\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.pdb
+C:\Users\bogda\Documents\GitHub\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.csproj.AssemblyReference.cache

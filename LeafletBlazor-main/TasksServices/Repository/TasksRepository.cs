@@ -4,13 +4,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using TasksServices.Model;
-using System.Data.SqlClient;
 
 namespace TasksServices.Repository
 {
     public class TasksRepository
     {
-        
+
 
         private const string data = "tasks.csv";
         private List<TaskModel> model;
