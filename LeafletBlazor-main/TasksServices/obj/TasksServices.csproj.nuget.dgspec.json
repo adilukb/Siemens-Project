@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adiluk\\Desktop\\branch\\Siemens-Project-main\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {}
+    "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adiluk\\Desktop\\branch\\Siemens-Project-main\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {
+    "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\branch\\Siemens-Project-main\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+        "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
         "projectName": "TasksServices",
-        "projectPath": "C:\\Users\\adiluk\\Desktop\\branch\\Siemens-Project-main\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+        "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
         "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adiluk\\Desktop\\branch\\Siemens-Project-main\\LeafletBlazor-main\\TasksServices\\obj\\",
+        "outputPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
