@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IQWDrUKeFRkCJ2BWDQbAM7mLyr8TzmOSmbrdL6vbVqkhje9mj79hznqfgypQI6acjgSNfPlgDmbHWjwaog4vTQ==",
+  "dgSpecHash": "MBYqX/t0F0KXQ+lSF3LK5M8AXqApKKBOwZXO0XtPVfleic/pRlcryt+D5IXrKzKSq8w5sBCvcatMsPIfZFCrcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
+  "projectFilePath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bogda\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0\\microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\bogda\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.0\\microsoft.aspnetcore.components.5.0.0.nupkg.sha512",

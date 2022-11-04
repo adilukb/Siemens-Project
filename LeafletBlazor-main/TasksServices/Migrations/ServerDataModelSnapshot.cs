@@ -38,13 +38,27 @@ namespace TasksServices.Migrations
 
                     b.Property<bool>("RiseOnHover");
 
-                    b.Property<string>("Title");
+                    b.Property<string>("Title")
+                        .IsRequired();
 
                     b.Property<int>("ZIndexOffset");
 
                     b.HasKey("Id");
 
                     b.ToTable("Markers");
+
+                    b.HasData(
+                        new { Id = 1, Keyboard = false, Latitude = 46.4768747, Longitude = 22.7541473, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Arieșeni", ZIndexOffset = 0 },
+                        new { Id = 2, Keyboard = false, Latitude = 45.44273707, Longitude = 25.58889896, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Azuga", ZIndexOffset = 0 },
+                        new { Id = 3, Keyboard = false, Latitude = 47.661522, Longitude = 23.6956528, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Baia Sprie", ZIndexOffset = 0 },
+                        new { Id = 4, Keyboard = false, Latitude = 46.3502813, Longitude = 25.4733735, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Băile Homorod", ZIndexOffset = 0 },
+                        new { Id = 5, Keyboard = false, Latitude = 46.1556322, Longitude = 25.8707339, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Băile Tușnad", ZIndexOffset = 0 },
+                        new { Id = 6, Keyboard = false, Latitude = 46.5359435, Longitude = 23.3098931, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Băișoara", ZIndexOffset = 0 },
+                        new { Id = 7, Keyboard = false, Latitude = 45.6047439, Longitude = 24.6171756, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Bâlea", ZIndexOffset = 0 },
+                        new { Id = 8, Keyboard = false, Latitude = 47.6308945, Longitude = 24.7407681, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Borșa", ZIndexOffset = 0 },
+                        new { Id = 9, Keyboard = false, Latitude = 46.9782008, Longitude = 25.5768737, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Borsec", ZIndexOffset = 0 },
+                        new { Id = 10, Keyboard = false, Latitude = 45.5063162, Longitude = 25.3771276, Opacity = 0.0, RiseOffset = 0, RiseOnHover = false, Title = "Bran", ZIndexOffset = 0 }
+                    );
                 });
 #pragma warning restore 612, 618
         }

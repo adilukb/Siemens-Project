@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y77WQNfE83bkrX0OoBapHFovaP/ju6KUJdR29GwLeUK03DG1i3V5qtE4GXUWXZi6eyttj1HWJAOutpTjx/CdKA==",
+  "dgSpecHash": "W51pFCmKY61u78UNSzurN8w9cVXgjG2XbIVk/kaBPXWvVwmW1CbfmYBimp95uArdeYm2b3uHw2Bt2Gh6JlGSoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj",
+  "projectFilePath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bogda\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0\\microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\bogda\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.0\\microsoft.aspnetcore.components.5.0.0.nupkg.sha512",

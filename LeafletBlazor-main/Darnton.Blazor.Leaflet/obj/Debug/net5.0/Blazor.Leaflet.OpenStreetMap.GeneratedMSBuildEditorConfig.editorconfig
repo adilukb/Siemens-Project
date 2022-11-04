@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Blazor.Leaflet.OpenStreetMap
-build_property.ProjectDir = C:\Users\bogda\Documents\GitHub\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\
+build_property.ProjectDir = C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\

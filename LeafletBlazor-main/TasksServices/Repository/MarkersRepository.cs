@@ -1,6 +1,7 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
 using TasksServices.Model;
 
 namespace TasksServices.Repository
@@ -8,7 +9,7 @@ namespace TasksServices.Repository
     public class MarkersRepository
     {
         public string connectionString =
-            @"Data Source=DESKTOP-MF0UUMO\SQLEXPRESS;Initial Catalog=SkyLocations;Integrated Security=True";
+            @"Data Source=localhost\SQLEXPRESS;Initial Catalog=SkyDB;Integrated Security=True";
         public SqlConnection connection;
         public SqlCommand command;
         public SqlDataReader reader;
@@ -22,7 +23,7 @@ namespace TasksServices.Repository
 
         private List<MarkerViewModel> GetModel()
         {
-            command.CommandText = "SELECT Latitude, Longitude, Statiune, Partii, Cazare, Imagine FROM SkiTable";
+            command.CommandText = "SELECT Latitude, Longitude, Title FROM Markers";
             var mvmList = new List<MarkerViewModel>();
             using (connection)
             {
@@ -35,18 +36,7 @@ namespace TasksServices.Repository
 
                     mvm.Latitude = reader.GetDouble(0);
                     mvm.Longitude = reader.GetDouble(1);
-                    mvm.Title = "<strong><center>" + reader.GetString(2) + "</center></strong><p align='left'>Partii:<br>";
-
-                    string s = reader.GetString(3);
-                    string[] subs = s.Split('(', ';');
-
-                    for (int i = 0; i < subs.Length; i += 2)
-                    {
-                        mvm.Title += "<strong>" + subs[i] + "</strong>(" + subs[i + 1] + "<br>";
-                    }
-                    mvm.Title += @"<button class=""btn btn-success"" onclick=""window.open('" + reader.GetString(4).Replace(Environment.NewLine, "") + @"');"">Cazare " + reader.GetString(2) + @"</button>";
-                    mvm.Title += @"<img src=""" + reader.GetString(5) + @""" width = ""300p"" height = ""170p"" alt = Stațiunea " + reader.GetString(2) + @">";
-
+                    mvm.Title =reader.GetString(2);
                     mvmList.Add(mvm);
                 }
 
@@ -94,7 +84,8 @@ namespace TasksServices.Repository
         public MarkerViewModel GetMarker(int pos)
         {
             return Model[pos];
-        }
+        } 
 
     }
 }
+*/

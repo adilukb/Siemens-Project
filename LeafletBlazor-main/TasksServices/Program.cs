@@ -13,14 +13,16 @@ namespace TasksServices
     public class Program
     {
 
-        public static void Main(string[] args)
+
+    public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
             /*var host = CreateHostBuilder(args).Build();
             CreateDbIfNotExists(host);
             host.Run();*/
+            
         }
-         private static void CreateDbIfNotExists(IHost host)
+/*         private static void CreateDbIfNotExists(IHost host)
          {
              using (var scope = host.Services.CreateScope())
              {
@@ -37,10 +39,12 @@ namespace TasksServices
                  }
              }
          }
+*/
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
         /* public static IHostBuilder CreateHostBuilder(string[] args) =>
              Host.CreateDefaultBuilder(args);*/
     }

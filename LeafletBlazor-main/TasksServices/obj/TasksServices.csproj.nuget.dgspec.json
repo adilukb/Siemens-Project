@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {}
+    "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {
+    "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
         "projectName": "TasksServices",
-        "projectPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+        "projectPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
         "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\obj\\",
+        "outputPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net461": {
           "targetAlias": "net461",
           "dependencies": {
+            "Fluent.Infrastructure": {
+              "target": "Package",
+              "version": "[2.0.0-beta-01, )"
+            },
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.1.7, )"

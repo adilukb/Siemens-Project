@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TasksServices.Data;
+using TasksServices.Interface.IConfiguration;
 using TasksServices.Model;
 
 namespace TasksServices
@@ -35,6 +37,9 @@ namespace TasksServices
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            //adding the Unit of Work to DI container
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         }
 
