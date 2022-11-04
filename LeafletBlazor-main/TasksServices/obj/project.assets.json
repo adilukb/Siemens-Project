@@ -10744,27 +10744,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adiluk\\.nuget\\packages\\": {}
+    "C:\\Users\\bogda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+      "projectUniqueName": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
       "projectName": "TasksServices",
-      "projectPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+      "projectPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
       "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
-      "projectName": "TasksServices",
-      "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
-      "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\obj\\",
->>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
+      "outputPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10829,7 +10821,7 @@
             "version": "[2.1.10, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

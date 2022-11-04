@@ -6,7 +6,6 @@ using Microsoft.Extensions.Logging;
 using System;
 using TasksServices.Model;
 using static TasksServices.Model.ServerData;
-using static TasksServices.Repository.MarkersRepository;
 
 namespace TasksServices
 {

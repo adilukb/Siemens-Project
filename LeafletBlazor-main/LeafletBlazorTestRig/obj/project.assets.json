@@ -5164,27 +5164,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adiluk\\.nuget\\packages\\": {}
+    "C:\\Users\\bogda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
+      "projectUniqueName": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
       "projectName": "LeafletBlazorTestRig",
-      "projectPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
+      "projectPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
       "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
-      "projectName": "LeafletBlazorTestRig",
-      "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\LeafletBlazorTestRig.csproj",
-      "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\LeafletBlazorTestRig\\obj\\",
->>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
+      "outputPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\LeafletBlazorTestRig\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5198,13 +5190,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj": {
-              "projectPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj"
-=======
-            "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj": {
-              "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj"
->>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
+            "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj": {
+              "projectPath": "C:\\Users\\bogda\\Documents\\GitHub\\Siemens-Project\\LeafletBlazor-main\\Darnton.Blazor.Leaflet\\Blazor.Leaflet.OpenStreetMap.csproj"
             }
           }
         }
@@ -5253,20 +5240,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.16, 5.0.16]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
+            "version": "[5.0.17, 5.0.17]"
           }
         ],
         "frameworkReferences": {
@@ -5274,7 +5249,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

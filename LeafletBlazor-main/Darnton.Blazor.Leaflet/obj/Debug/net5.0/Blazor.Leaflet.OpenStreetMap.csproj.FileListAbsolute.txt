@@ -187,8 +187,5 @@ C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBl
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.xml
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\Blazor.Leaflet.OpenStreetMap.pdb
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\ref\Blazor.Leaflet.OpenStreetMap.dll
-<<<<<<< HEAD
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\bin\Debug\net5.0\ref\Blazor.Leaflet.OpenStreetMap.dll
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\obj\Debug\net5.0\staticwebassets\Blazor.Leaflet.OpenStreetMap.StaticWebAssets.xml
-=======
->>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707

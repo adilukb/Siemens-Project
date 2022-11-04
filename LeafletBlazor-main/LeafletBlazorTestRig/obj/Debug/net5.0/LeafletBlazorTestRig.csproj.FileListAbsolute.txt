@@ -4414,7 +4414,4 @@ C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBl
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\LeafletBlazorTestRig\obj\Debug\net5.0\refint\LeafletBlazorTestRig.dll
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\LeafletBlazorTestRig\obj\Debug\net5.0\LeafletBlazorTestRig.pdb
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\LeafletBlazorTestRig\obj\Debug\net5.0\ref\LeafletBlazorTestRig.dll
-<<<<<<< HEAD
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\LeafletBlazorTestRig\bin\Debug\net5.0\ref\LeafletBlazorTestRig.dll
-=======
->>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
