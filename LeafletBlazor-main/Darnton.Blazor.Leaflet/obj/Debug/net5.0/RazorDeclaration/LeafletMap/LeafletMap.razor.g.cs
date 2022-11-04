@@ -13,7 +13,11 @@ namespace Blazor.Leaflet.OpenStreetMap.LeafletMap
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
+<<<<<<< HEAD
 #line 1 "C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\_Imports.razor"
+=======
+#line 1 "C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\_Imports.razor"
+>>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
 using Microsoft.AspNetCore.Components.Web;
 
 #line default

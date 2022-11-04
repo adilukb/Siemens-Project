@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
         "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\bogda\\Desktop\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\obj\\",
+=======
+    "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+        "projectName": "TasksServices",
+        "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+        "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-EntityFrameworkInitial\\LeafletBlazor-main\\TasksServices\\obj\\",
+>>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +93,7 @@
               "version": "[2.1.10, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

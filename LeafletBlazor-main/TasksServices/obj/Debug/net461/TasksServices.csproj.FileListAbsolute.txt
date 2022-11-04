@@ -346,6 +346,7 @@ C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBl
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\obj\Debug\net461\TasksServices.csproj.CopyComplete
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\obj\Debug\net461\TasksServices.exe
 C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\obj\Debug\net461\TasksServices.pdb
+<<<<<<< HEAD
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\bin\Debug\net461\app.config
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\bin\Debug\net461\appsettings.Development.json
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\bin\Debug\net461\appsettings.json
@@ -731,3 +732,5 @@ C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\obj\Debug\net461\TasksServices.csproj.CopyComplete
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\obj\Debug\net461\TasksServices.exe
 C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\TasksServices\obj\Debug\net461\TasksServices.pdb
+=======
+>>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707

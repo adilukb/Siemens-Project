@@ -1,4 +1,9 @@
 ﻿<StaticWebAssets Version="1.0">
+<<<<<<< HEAD
   <ContentRoot BasePath="/" Path="C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\LeafletBlazorTestRig\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="_content/Blazor.Leaflet.OpenStreetMap" Path="C:\Users\bogda\Desktop\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\wwwroot\" />
+=======
+  <ContentRoot BasePath="/" Path="C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\LeafletBlazorTestRig\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="_content/Blazor.Leaflet.OpenStreetMap" Path="C:\Users\adiluk\Desktop\siemens\Siemens-Project-EntityFrameworkInitial\LeafletBlazor-main\Darnton.Blazor.Leaflet\wwwroot\" />
+>>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
 </StaticWebAssets>

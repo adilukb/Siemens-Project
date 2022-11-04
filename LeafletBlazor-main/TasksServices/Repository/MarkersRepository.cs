@@ -44,6 +44,8 @@ namespace TasksServices.Repository
             }
         }
 
+      
+
         private List<MarkerViewModel> model;
         private static readonly object obj = new object();
         private static MarkersRepository instance = null;

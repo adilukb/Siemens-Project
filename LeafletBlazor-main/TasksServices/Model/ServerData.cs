@@ -13,7 +13,38 @@ namespace TasksServices.Model
         }
         public DbSet<MarkerViewModel> Markers { get; set; }
 
+<<<<<<< HEAD
        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+=======
+        /*        public static class DbInitializer
+                {
+                    public static void Initialize(ServerData context)
+                    {
+                        context.Database.EnsureCreated();
+
+                        // Look for any students.
+                        if (context.Markers.Any())
+                        {
+                            return;   // DB has been seeded
+                        }
+
+                        var markers = new MarkerViewModel[]
+                        {
+                            new MarkerViewModel { Id = 1, Keyboard = default, Title = "Xyz", Alt = default, ZIndexOffset = default, Opacity = default, RiseOnHover = default, RiseOffset = default, Latitude = 22, Longitude = 44},
+                            new MarkerViewModel { Id = 2, Keyboard = default, Title = "Yxz", Alt = default, ZIndexOffset = default, Opacity = default, RiseOnHover = default, RiseOffset = default, Latitude = 23, Longitude = 43 },
+                            new MarkerViewModel { Id = 3, Keyboard = default, Title = "Zyx", Alt = default, ZIndexOffset = default, Opacity = default, RiseOnHover = default, RiseOffset = default, Latitude = 24, Longitude = 42 }
+                        };
+
+                        foreach (MarkerViewModel m in markers)
+                        {
+                            context.Markers.Add(m);
+                        }
+                        context.SaveChanges();
+                    }
+                }*/
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+>>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
         {
             modelBuilder.Entity<MarkerViewModel>().HasData(
                     new MarkerViewModel
@@ -146,7 +177,11 @@ namespace TasksServices.Model
                        Latitude = 45.5063162,
                        Longitude = 25.3771276
                    });
+<<<<<<< HEAD
         }*/
+=======
+        }
+>>>>>>> d5b02d53c37ba059de2899a3b7068b9fb28fe707
     }
 }
 
