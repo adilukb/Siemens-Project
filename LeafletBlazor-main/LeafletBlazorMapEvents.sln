@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Leaflet.OpenStreetMap", "Darnton.Blazor.Leaflet\Blazor.Leaflet.OpenStreetMap.csproj", "{C18F445E-BD95-45E4-8C87-A5B7445F3B19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeafletBlazorTestRig", "LeafletBlazorTestRig\LeafletBlazorTestRig.csproj", "{57B624F5-D518-41C0-9A8D-87A72D326C9B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksServices", "TasksServices\TasksServices.csproj", "{8656F6C4-8767-4846-89F2-1F8D473DFF00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{6ABF2669-639A-49A2-8D01-28F5BB98D277}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{2EE5A3B6-E561-4F53-A71C-29814FFF2C0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinPoints", "PinPoints\PinPoints.csproj", "{58A1CD92-E810-48F3-971F-E85E19D3F190}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.PinPoints", "Services.PinPoints\Services.PinPoints.csproj", "{A8AF38A6-E971-446B-B158-C0BFB6B2C9F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinPoints.Presentation", "PinPoints.Presentation\PinPoints.Presentation.csproj", "{3988CE95-88AF-4DB9-8060-B450495C3EF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{8656F6C4-8767-4846-89F2-1F8D473DFF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8656F6C4-8767-4846-89F2-1F8D473DFF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8656F6C4-8767-4846-89F2-1F8D473DFF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABF2669-639A-49A2-8D01-28F5BB98D277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABF2669-639A-49A2-8D01-28F5BB98D277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABF2669-639A-49A2-8D01-28F5BB98D277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABF2669-639A-49A2-8D01-28F5BB98D277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE5A3B6-E561-4F53-A71C-29814FFF2C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE5A3B6-E561-4F53-A71C-29814FFF2C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE5A3B6-E561-4F53-A71C-29814FFF2C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE5A3B6-E561-4F53-A71C-29814FFF2C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A1CD92-E810-48F3-971F-E85E19D3F190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A1CD92-E810-48F3-971F-E85E19D3F190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A1CD92-E810-48F3-971F-E85E19D3F190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A1CD92-E810-48F3-971F-E85E19D3F190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AF38A6-E971-446B-B158-C0BFB6B2C9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AF38A6-E971-446B-B158-C0BFB6B2C9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AF38A6-E971-446B-B158-C0BFB6B2C9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AF38A6-E971-446B-B158-C0BFB6B2C9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
