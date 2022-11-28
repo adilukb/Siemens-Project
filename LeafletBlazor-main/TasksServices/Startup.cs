@@ -22,7 +22,6 @@ namespace TasksServices
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
@@ -31,33 +30,20 @@ namespace TasksServices
 
             services.AddCors(options =>
             {
-                options.AddDefaultPolicy(
+                options.AddPolicy("MyPolicy",
                     policy =>
                     {
-                        //Add the Client application URLs (enable: Cross-origin resource sharing (CORS))
                         policy.WithOrigins("https://localhost:44357",
-                                           "https://localhost:44397");
+                                           "https://localhost:44397").
+                                           AllowAnyMethod().
+                                           AllowAnyHeader();
                     });
             });
 
-            /*  services.Configure<IISOptions>(options =>
-              {
-
-              });*/
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-            //var assembly = typeof(PinPoints.Presentation.AssemblyReference).Assembly;
-            //services.AddMvc().AddApplicationPart(assembly).AddControllersAsServices();
 
             services.AddScoped<IRepositoryManager, RepositoryManager>();
 
-            //services.AddScoped<IServiceManager, ServiceManager>();
-
-
-           
- 
-            //services.AddController.AddApplicationPart(typeof(PinPoints.Presentation.AssemblyReference).Assembly);
         }
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -68,7 +54,13 @@ namespace TasksServices
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors();
+            app.UseCors(builder =>
+            {
+                 builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials();
+            });
 
             app.UseMvc();
 

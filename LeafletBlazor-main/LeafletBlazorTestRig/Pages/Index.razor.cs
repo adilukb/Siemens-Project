@@ -2,9 +2,19 @@
 using LeafletBlazorTestRig.Actions;
 using LeafletBlazorTestRig.Models;
 using Microsoft.AspNetCore.Components;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
+using System.Reflection;
+using System.Reflection.Metadata;
+using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace LeafletBlazorTestRig.Pages
 {
@@ -40,10 +50,11 @@ namespace LeafletBlazorTestRig.Pages
             );
 
             MarkerViewModel = new MarkerViewModel();
+            
 
             PositionMap.OnMoveEnd += PositionMap_OnMoveEnd;
             PositionMap.OnClick += PositionMap_OnClick;
-
+            PositionMap.OnContextMenu += PositionMap_OnContextMenu;
 
         }
 
@@ -93,7 +104,38 @@ namespace LeafletBlazorTestRig.Pages
             }
       
         }
+        private static string serviceUrl = "http://localhost:5000";
+        protected async void PositionMap_OnContextMenu(object sender, LeafletMouseEventArgs e)
+        {
 
+            var mapCentre = e.LatLng;
+            await PositionMap.SetView(mapCentre, 12);
+            var action = new MarkersAction();
+            var newmarker = new Marker(e.LatLng, new MarkerOptions
+            {
+                Keyboard = MarkerViewModel.Keyboard,
+                Title = MarkerViewModel.Title,
+                Alt = MarkerViewModel.Alt,
+                ZIndexOffset = MarkerViewModel.ZIndexOffset,
+                Opacity = MarkerViewModel.Opacity,
+                RiseOnHover = MarkerViewModel.RiseOnHover,
+                RiseOffset = MarkerViewModel.RiseOffset,
+            });
+            var http = new HttpClient();
+            http.BaseAddress = new Uri("https://localhost:5000");
+            http.DefaultRequestHeaders.Accept.Clear();
+            http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            await newmarker.AddTo(PositionMap);
+
+            string tasksUrl = $"{serviceUrl}/markers";
+            var contactJson = JsonConvert.SerializeObject(e.LatLng);
+            var stringContent = new StringContent(contactJson, UnicodeEncoding.UTF8, "application/json");
+            var response = await http.PostAsJsonAsync(tasksUrl, newmarker);
+            var popupContent = $"{e.LatLng}";
+            await newmarker.BindPopup(popupContent);
+            await newmarker.DisposeAsync();
+        }  
         private void PositionMap_OnMoveEnd(object sender, EventArgs e)
         {
             Console.WriteLine("Map_OnMoveEnd");
@@ -108,6 +150,11 @@ namespace LeafletBlazorTestRig.Pages
         private void PositionMap_OnClick(object sender, LeafletMouseEventArgs e)
         {
             Console.WriteLine("Map_OnClick");
+        }
+
+        private void PositionMap_OnDoubleClick(object sender, LeafletMouseEventArgs e)
+        {
+            Console.WriteLine("Map_OnDoubleClick");
         }
 
         public async ValueTask DisposeAsync()

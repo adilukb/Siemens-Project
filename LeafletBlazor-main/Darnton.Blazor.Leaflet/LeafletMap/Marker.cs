@@ -1,4 +1,5 @@
 ﻿using Microsoft.JSInterop;
+using System;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
@@ -32,6 +33,7 @@ namespace Blazor.Leaflet.OpenStreetMap.LeafletMap
             LatLng = latlng;
             Options = options;
         }
+        
 
         /// <inheritdoc/>
         protected override async Task<IJSObjectReference> CreateJsObjectRef()
@@ -47,5 +49,9 @@ namespace Blazor.Leaflet.OpenStreetMap.LeafletMap
             await module.InvokeVoidAsync("LeafletMap.Marker.bindPopup", JSObjectReference, content);
         }
 
+        public object Select(Func<object, object> value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
