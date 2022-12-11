@@ -10,7 +10,5 @@ namespace Services.PinPoints
     public interface IMarkersService
     {
         IEnumerable<MarkerProperties> GetAllMarkers(bool trackChanges);
-      
-
     }
 }

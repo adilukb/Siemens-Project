@@ -24,7 +24,7 @@ namespace Blazor.Leaflet.OpenStreetMap.LeafletMap
         /// <summary>
         /// Text for the browser tooltip that appear on marker hover (no tooltip by default).
         /// </summary>
-        [JsonPropertyName("title")]
+        [JsonPropertyName("Title")]
         public string Title { get; set; }
 
         /// <summary>

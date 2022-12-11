@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.PinPoints", "Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinPoints.Presentation", "PinPoints.Presentation\PinPoints.Presentation.csproj", "{3988CE95-88AF-4DB9-8060-B450495C3EF5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransferObjects", "DataTransferObjects\DataTransferObjects.csproj", "{68434120-B833-4B4C-852E-AAB20B2E8589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3988CE95-88AF-4DB9-8060-B450495C3EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68434120-B833-4B4C-852E-AAB20B2E8589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68434120-B833-4B4C-852E-AAB20B2E8589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68434120-B833-4B4C-852E-AAB20B2E8589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68434120-B833-4B4C-852E-AAB20B2E8589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

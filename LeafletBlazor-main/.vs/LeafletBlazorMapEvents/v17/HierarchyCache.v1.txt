@@ -1,85 +1,171 @@
-﻿++Solution 'LeafletBlazorMapEvents' ‎(10 of 10 projects)
+﻿++Solution 'LeafletBlazorMapEvents' ‎(9 of 9 projects)
+i:{00000000-0000-0000-0000-000000000000}:LeafletBlazorMapEvents.sln
+++DataTransferObjects
+i:{00000000-0000-0000-0000-000000000000}:DataTransferObjects
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\datatransferobjects\datatransferobjects.csproj
+++Dependencies
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3822
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:>515
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:>514
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:>852
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:>1883
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:>2218
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3365
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3823
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:>4581
+++Shared
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\shared\
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\datatransferobjects\shared\
+++MarkersDTO.cs
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\datatransferobjects\shared\markersdto.cs
+++Assemblies
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:assemblies
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:assemblies
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:assemblies
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:assemblies
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:assemblies
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:assemblies
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:assemblies
+++System
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.dll
+++System.Core
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.core.dll
+++System.Data
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.data.dll
+++System.Drawing
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.drawing.dll
+++System.IO.Compression.FileSystem
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.io.compression.filesystem.dll
+++System.Numerics
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.numerics.dll
+++System.Runtime.Serialization
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.runtime.serialization.dll
+++System.Xml
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.dll
+++System.Xml.Linq
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
+i:{68434120-b833-4b4c-852e-aab20b2e8589}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\system.xml.linq.dll
 ++TasksServices
 i:{00000000-0000-0000-0000-000000000000}:TasksServices
 ++Connected Services 
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3787
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3786
-++Dependencies
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3785
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:>2499
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3749
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:>2498
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:>2496
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3784
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3824
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3825
 ++Properties
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\properties\
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\properties\
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\properties\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\properties\
 ++ContextFactory
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\contextfactory\
-++Extensions
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\extensions\
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\contextfactory\
 ++Migrations
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\migrations\
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\migrations\
 ++Model
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\model\
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\model\
+++TaskModel.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\model\taskmodel.cs
 ++Resources
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\resources\
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\resources\
 ++wwwroot
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\wwwroot\
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\wwwroot\
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\wwwroot\
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\wwwroot\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\
 ++app.config
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\app.config
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\app.config
 ++appsettings.json
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\appsettings.json
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\appsettings.json
 ++Program.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\program.cs
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\program.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\program.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\program.cs
 ++Startup.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\startup.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\startup.cs
 ++No service dependencies discovered
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3788
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3789
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3827
 ++Analyzers
 i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:analyzers
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:analyzers
 i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:analyzers
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:analyzers
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:analyzers
-++Assemblies
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:assemblies
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:assemblies
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:assemblies
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:assemblies
 ++Packages
 i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:packages
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:packages
 i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:packages
 i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:packages
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:packages
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:packages
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:packages
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:packages
 ++Projects
 i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:projects
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:projects
 i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:projects
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:projects
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:projects
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:projects
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:projects
 ++launchSettings.json
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\properties\launchsettings.json
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\properties\launchsettings.json
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\properties\launchsettings.json
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\properties\launchsettings.json
 ++RepositoryContextFactory.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\contextfactory\repositorycontextfactory.cs
-++ServiceExtensions.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\extensions\serviceextensions.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\contextfactory\repositorycontextfactory.cs
 ++20221117170822_Database.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\migrations\20221117170822_database.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\migrations\20221117170822_database.cs
 ++20221117171913_InitialData.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\migrations\20221117171913_initialdata.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\migrations\20221117171913_initialdata.cs
 ++RepositoryContextModelSnapshot.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\migrations\repositorycontextmodelsnapshot.cs
-++TaskModel.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\model\taskmodel.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\migrations\repositorycontextmodelsnapshot.cs
 ++tasks.csv
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\resources\tasks.csv
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\resources\tasks.csv
 ++appsettings.Development.json
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\appsettings.development.json
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\appsettings.development.json
 ++Microsoft.CodeAnalysis.Analyzers
 i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
 ++Microsoft.CodeAnalysis.CSharp.Analyzers
@@ -87,174 +173,159 @@ i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\.nuget\packages\microso
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\.nuget\packages\microsoft.entityframeworkcore.analyzers\2.1.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\.nuget\packages\microsoft.entityframeworkcore.analyzers\2.1.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
 ++Microsoft.VisualBasic
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\microsoft.visualbasic
-++System
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system
-++System.Core
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.core
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.core
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.core
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.core
-++System.Data
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.data
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.data
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.data
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.data
-++System.Drawing
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.drawing
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.drawing
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.drawing
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.drawing
-++System.IO.Compression.FileSystem
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.io.compression.filesystem
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.io.compression.filesystem
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.io.compression.filesystem
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.io.compression.filesystem
-++System.Numerics
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.numerics
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.numerics
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.numerics
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.numerics
-++System.Runtime.Serialization
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.runtime.serialization
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.runtime.serialization
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.runtime.serialization
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.runtime.serialization
-++System.Xml
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.xml
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.xml
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.xml
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.xml
-++System.Xml.Linq
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\system.xml.linq
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\system.xml.linq
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\system.xml.linq
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\system.xml.linq
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.6.1\microsoft.visualbasic.dll
 ++Microsoft.AspNetCore (2.1.7)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3878
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3951
 ++Microsoft.AspNetCore.Mvc (2.1.3)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3874
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3947
 ++Microsoft.AspNetCore.StaticFiles (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3871
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3944
 ++Microsoft.EntityFrameworkCore (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3868
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:>3901
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3941
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:>3877
 ++Microsoft.EntityFrameworkCore.Analyzers (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3872
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3945
 ++Microsoft.EntityFrameworkCore.Design (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3870
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3943
 ++Microsoft.EntityFrameworkCore.SqlServer (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3869
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3942
 ++Microsoft.EntityFrameworkCore.Tools (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3876
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3949
 ++Microsoft.Extensions.DependencyInjection (3.1.11)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3875
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3948
 ++Microsoft.Graph (3.30.0)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3873
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3946
 ++Microsoft.VisualStudio.Web.BrowserLink (2.1.1)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3877
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3950
 ++Microsoft.VisualStudio.Web.CodeGeneration.Design (2.1.10)
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3879
-++PinPoints.Presentation
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>3952
 ++Repository
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\repository.csproj
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\bin\debug\net461\repository.dll
 i:{00000000-0000-0000-0000-000000000000}:Repository
-++Service
 ++20221117170822_Database.Designer.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\migrations\20221117170822_database.designer.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\migrations\20221117170822_database.designer.cs
 ++20221117171913_InitialData.Designer.cs
-i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\tasksservices\migrations\20221117171913_initialdata.designer.cs
-++PinPoints
-i:{00000000-0000-0000-0000-000000000000}:PinPoints
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\pinpoints.csproj
-++IMarkersRepository.cs
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\imarkersrepository.cs
-++IRepositoryBase.cs
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\irepositorybase.cs
-++IRepositoryManager.cs
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\irepositorymanager.cs
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\tasksservices\migrations\20221117171913_initialdata.designer.cs
 ++Entities
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\entities.csproj
 i:{00000000-0000-0000-0000-000000000000}:Entities
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\entities.csproj
-++Controllers
-++AssemblyReference.cs
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\entities\bin\debug\net461\entities.dll
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\entities\bin\debug\net461\entities.dll
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\entities\bin\debug\net461\entities.dll
+++MarkerProperties.cs
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\entities\markerproperties.cs
+++System.ComponentModel.Annotations (5.0.0)
+i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:>3894
+++Configuration
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\configuration\
+++MarkersConfiguration.cs
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\configuration\markersconfiguration.cs
+++MarkersRepository.cs
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\markersrepository.cs
+++RepositoryBase.cs
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\repositorybase.cs
+++RepositoryContext.cs
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\repositorycontext.cs
+++RepositoryManager.cs
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\repository\repositorymanager.cs
+++PinPoints
+i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\bin\debug\net461\pinpoints.dll
+i:{00000000-0000-0000-0000-000000000000}:PinPoints
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\bin\debug\net461\pinpoints.dll
+++IGenericRepository.cs
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\igenericrepository.cs
+++IMarkersRepository.cs
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\imarkersrepository.cs
+++IRepositoryBase.cs
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\irepositorybase.cs
+++IRepositoryManager.cs
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\irepositorymanager.cs
 ++MarkersController.cs
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\markerscontroller.cs
-++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints\markerscontroller.cs
+++Microsoft.AspNetCore.Cors (2.1.1)
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:>3860
+++Microsoft.AspNetCore.Mvc.Core (2.1.3)
+i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:>3861
 ++Services.PinPoints
+i:{00000000-0000-0000-0000-000000000000}:Services.PinPoints
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\services.pinpoints\bin\debug\net461\services.pinpoints.dll
+++IMarkersService.cs
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\services.pinpoints\imarkersservice.cs
+++IServiceManager.cs
+i:{a8af38a6-e971-446b-b158-c0bfb6b2c9f4}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\services.pinpoints\iservicemanager.cs
+++PinPoints.Presentation
+i:{00000000-0000-0000-0000-000000000000}:PinPoints.Presentation
+++AssemblyReference.cs
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\pinpoints.presentation\assemblyreference.cs
+++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{3988ce95-88af-4db9-8060-b450495c3ef5}:>3906
 ++Blazor.Leaflet.OpenStreetMap
 i:{00000000-0000-0000-0000-000000000000}:Blazor.Leaflet.OpenStreetMap
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\blazor.leaflet.openstreetmap.csproj
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\bin\debug\net5.0\blazor.leaflet.openstreetmap.dll
 ++LeafletMap
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\
 ++_Imports.razor
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\_imports.razor
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\_imports.razor
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\_imports.razor
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\_imports.razor
 ++Blazor.Leaflet.OpenStreetMap.xml
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\blazor.leaflet.openstreetmap.xml
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\blazor.leaflet.openstreetmap.xml
 ++InteropObject.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\interopobject.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\interopobject.cs
 ++LeafletMapJSBinder.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmapjsbinder.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmapjsbinder.cs
 ++Frameworks
 i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:frameworks
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:frameworks
 ++Bounds.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\bounds.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\bounds.cs
 ++DivIcon.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\divicon.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\divicon.cs
 ++DivIconOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\diviconoptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\diviconoptions.cs
 ++Icon.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\icon.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\icon.cs
 ++IconOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\iconoptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\iconoptions.cs
 ++InteractiveLayer.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\interactivelayer.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\interactivelayer.cs
 ++LatLng.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\latlng.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\latlng.cs
 ++LatLngBounds.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\latlngbounds.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\latlngbounds.cs
 ++Layer.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\layer.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\layer.cs
 ++LayerOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\layeroptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\layeroptions.cs
 ++LeafletEventArgs.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafleteventargs.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafleteventargs.cs
 ++LeafletMap.razor
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafletmap.razor
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafletmap.razor
 ++LeafletMouseEventArgs.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafletmouseeventargs.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafletmouseeventargs.cs
 ++Map.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\map.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\map.cs
 ++MapOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\mapoptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\mapoptions.cs
 ++Marker.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\marker.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\marker.cs
 ++MarkerOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\markeroptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\markeroptions.cs
 ++Path.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\path.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\path.cs
 ++Point.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\point.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\point.cs
 ++Polyline.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\polyline.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\polyline.cs
 ++PolylineOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\polylineoptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\polylineoptions.cs
 ++PopUp.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\popup.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\popup.cs
 ++TileLayer.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\tilelayer.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\tilelayer.cs
 ++TileLayerOptions.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\tilelayeroptions.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\tilelayeroptions.cs
 ++js
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\wwwroot\js\
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\wwwroot\js\
 ++Microsoft.AspNetCore.Components.Analyzers
 i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\.nuget\packages\microsoft.aspnetcore.components.analyzers\5.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.components.analyzers.dll
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\.nuget\packages\microsoft.aspnetcore.components.analyzers\5.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.components.analyzers.dll
@@ -265,135 +336,232 @@ i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\program files\dotnet\sdk\6.0.202\sdk
 i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.NETCore.App
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\microsoft.netcore.app
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\microsoft.netcore.app
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\microsoft.netcore.app
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\microsoft.netcore.app
 ++Microsoft.AspNetCore.Components (5.0.0)
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3931
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3837
 ++Microsoft.AspNetCore.Components.Web (5.0.0)
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3929
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3837
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3835
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3919
 ++System.Net.Http (4.3.4)
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3930
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3836
 ++System.Net.Http.Json (5.0.0)
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3932
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3841
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:>3838
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3922
 ++LeafletMap.razor.cs
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafletmap.razor.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\leafletmap\leafletmap.razor.cs
 ++leaflet-map.js
-i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\darnton.blazor.leaflet\wwwroot\js\leaflet-map.js
-++MarkerProperties.cs
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\entities\markerproperties.cs
-++System.ComponentModel.Annotations (5.0.0)
-i:{6abf2669-639a-49a2-8d01-28f5bb98d277}:>3922
-++Configuration
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\configuration\
-++MarkersRepository.cs
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\markersrepository.cs
-++RepositoryBase.cs
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\repositorybase.cs
-++RepositoryContext.cs
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\repositorycontext.cs
-++RepositoryManager.cs
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\repositorymanager.cs
-++MarkersConfiguration.cs
-i:{2ee5a3b6-e561-4f53-a71c-29814fff2c0b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\repository\configuration\markersconfiguration.cs
-++IMarkersService.cs
-++IServiceManager.cs
-++MarkersService.cs
-++ServiceManager.cs
-++Microsoft.Extensions.Logging.Abstractions (6.0.0)
-++Shared
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\shared\
-++DataTransferObjects
-++MarkersDTO.cs
+i:{c18f445e-bd95-45e4-8c87-a5b7445f3b19}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\darnton.blazor.leaflet\wwwroot\js\leaflet-map.js
 ++LeafletBlazorTestRig
 i:{00000000-0000-0000-0000-000000000000}:LeafletBlazorTestRig
 ++Actions
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\actions\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\actions\
 ++Models
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\models\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\models\
 ++Pages
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\pages\
-++App.razor
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\app.razor
-++css
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\css\
-++favicon.ico
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\favicon.ico
-++index.html
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\index.html
-++leaf-green.png
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-green.png
-++leaf-orange.png
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-orange.png
-++leaf-red.png
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-red.png
-++leaf-shadow.png
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-shadow.png
-++MarkersAction.cs
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\actions\markersaction.cs
-++MapStateViewModel.cs
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\models\mapstateviewmodel.cs
-++MarkerViewModel.cs
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\models\markerviewmodel.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\pages\
 ++Index.razor
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\pages\index.razor
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\pages\index.razor
 ++MainLayout.razor
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\shared\mainlayout.razor
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\shared\mainlayout.razor
 ++NavMenu.razor
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\shared\navmenu.razor
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\shared\navmenu.razor
+++App.razor
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\app.razor
+++css
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\css\
+++favicon.ico
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\favicon.ico
+++index.html
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\index.html
+++leaf-green.png
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-green.png
+++leaf-orange.png
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-orange.png
+++leaf-red.png
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-red.png
+++leaf-shadow.png
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\leaf-shadow.png
+++MarkersAction.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\actions\markersaction.cs
+++MapStateViewModel.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\models\mapstateviewmodel.cs
+++MarkerViewModel.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\models\markerviewmodel.cs
+++Index.razor.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\pages\index.razor.cs
 ++ILLink.CodeFixProvider
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\illink.codefixprovider.dll
 ++ILLink.RoslynAnalyzer
 i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\illink.roslynanalyzer.dll
 ++Microsoft.AspNetCore.Components.WebAssembly (5.0.0)
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3836
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3918
 ++Microsoft.AspNetCore.Components.WebAssembly.DevServer (5.0.0)
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3840
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3921
 ++Newtonsoft.Json (13.0.1)
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3839
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:>3920
 ++bootstrap
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\bootstrap\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\bootstrap\
 ++open-iconic
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\
 ++app.css
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\app.css
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\app.css
 ++leaflet-map.css
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\leaflet-map.css
-++Index.razor.cs
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\pages\index.razor.cs
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\leaflet-map.css
 ++bootstrap.min.css
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\bootstrap\bootstrap.min.css
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\bootstrap\bootstrap.min.css
 ++font
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\
 ++FONT-LICENSE
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font-license
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font-license
 ++ICON-LICENSE
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\icon-license
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\icon-license
 ++README.md
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\readme.md
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\readme.md
 ++bootstrap.min.css.map
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\bootstrap\bootstrap.min.css.map
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\bootstrap\bootstrap.min.css.map
 ++fonts
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\
 ++open-iconic-bootstrap.min.css
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
 ++open-iconic.eot
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
 ++open-iconic.otf
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
 ++open-iconic.svg
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
 ++open-iconic.ttf
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
 ++open-iconic.woff
-i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
-++IGenericRepository.cs
-i:{58a1cd92-e810-48f3-971f-e85e19d3f190}:c:\users\adiluk\desktop\trycatch\siemens-project-entityframeworkinitial\leafletblazor-main\pinpoints\igenericrepository.cs
-++Interface1.cs
-++Solution 'LeafletBlazorMapEvents' ‎(9 of 9 projects)
+i:{57b624f5-d518-41c0-9a8d-87a72d326c9b}:c:\users\adiluk\desktop\siemens\siemens-project-onionarchitecture\leafletblazor-main\leafletblazortestrig\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++SQL Server Database
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>4049
+++SQL Server Database dependency is detected
+i:{8656f6c4-8767-4846-89f2-1f8d473dff00}:>4050
 ++Solution 'LeafletBlazorMapEvents' ‎(8 of 8 projects)
-++Solution 'LeafletBlazorMapEvents' ‎(7 of 7 projects)
-++Solution 'LeafletBlazorMapEvents' ‎(6 of 6 projects)
-i:{00000000-0000-0000-0000-000000000000}:LeafletBlazorMapEvents.sln
+++Class1.cs
+++NETStandard.Library (2.0.3)
+++NewFolder
+++markersDTO.cs
+++MarkersService.cs
+++ServiceManager.cs
+++Solution 'LeafletBlazorMapEvents' ‎(10 of 10 projects)
+++Service
+++Microsoft.Extensions.Logging.Generators
+++Microsoft.Extensions.Logging.Abstractions (6.0.0)
+++Script Documents
+++localhost꞉44397/_framework/blazor.webassembly.js
+++localhost꞉44397/_framework/aspnetcore-browser-refresh.js
+++unpkg.com/leaflet@1.7.1/dist/leaflet.js
+++localhost꞉44397/(index)꞉29:13
+++localhost꞉44397/_framework/dotnet.5.0.16.js
+++leaflet@1.7.1/src/core/Util.js
+++leaflet@1.7.1/src/core/Class.js
+++leaflet@1.7.1/src/core/Events.js
+++leaflet@1.7.1/src/geometry/Point.js
+++leaflet@1.7.1/src/geometry/Bounds.js
+++leaflet@1.7.1/src/geo/LatLngBounds.js
+++leaflet@1.7.1/src/geo/LatLng.js
+++leaflet@1.7.1/src/geo/crs/CRS.js
+++leaflet@1.7.1/src/geo/projection/Projection.SphericalMercator.js
+++leaflet@1.7.1/src/geo/crs/CRS.Earth.js
+++leaflet@1.7.1/src/geometry/Transformation.js
+++leaflet@1.7.1/src/geo/crs/CRS.EPSG3857.js
+++leaflet@1.7.1/src/layer/vector/SVG.Util.js
+++leaflet@1.7.1/src/core/Browser.js
+++leaflet@1.7.1/src/dom/DomEvent.Pointer.js
+++leaflet@1.7.1/src/dom/DomEvent.DoubleTap.js
+++leaflet@1.7.1/src/dom/DomUtil.js
+++leaflet@1.7.1/src/dom/DomEvent.js
+++leaflet@1.7.1/src/dom/PosAnimation.js
+++leaflet@1.7.1/src/map/Map.js
+++leaflet@1.7.1/src/control/Control.js
+++leaflet@1.7.1/src/control/Control.Layers.js
+++leaflet@1.7.1/src/control/Control.Zoom.js
+++leaflet@1.7.1/src/control/Control.Scale.js
+++leaflet@1.7.1/src/control/Control.Attribution.js
+++leaflet@1.7.1/src/control/index.js
+++leaflet@1.7.1/src/core/Handler.js
+++leaflet@1.7.1/src/core/index.js
+++leaflet@1.7.1/src/geometry/LineUtil.js
+++leaflet@1.7.1/src/dom/Draggable.js
+++leaflet@1.7.1/src/geometry/PolyUtil.js
+++leaflet@1.7.1/src/geo/crs/CRS.EPSG3395.js
+++leaflet@1.7.1/src/geo/projection/Projection.LonLat.js
+++leaflet@1.7.1/src/geo/projection/Projection.Mercator.js
+++leaflet@1.7.1/src/geo/crs/CRS.EPSG4326.js
+++leaflet@1.7.1/src/geo/crs/CRS.Simple.js
+++leaflet@1.7.1/src/geo/crs/index.js
+++leaflet@1.7.1/src/layer/Layer.js
+++leaflet@1.7.1/src/layer/LayerGroup.js
+++leaflet@1.7.1/src/layer/FeatureGroup.js
+++leaflet@1.7.1/src/layer/marker/Icon.js
+++leaflet@1.7.1/src/layer/marker/Icon.Default.js
+++leaflet@1.7.1/src/layer/marker/Marker.Drag.js
+++leaflet@1.7.1/src/layer/marker/Marker.js
+++leaflet@1.7.1/src/layer/vector/Path.js
+++leaflet@1.7.1/src/layer/vector/CircleMarker.js
+++leaflet@1.7.1/src/layer/vector/Circle.js
+++leaflet@1.7.1/src/layer/vector/Polyline.js
+++leaflet@1.7.1/src/layer/vector/Polygon.js
+++leaflet@1.7.1/src/layer/GeoJSON.js
+++leaflet@1.7.1/src/layer/ImageOverlay.js
+++leaflet@1.7.1/src/layer/VideoOverlay.js
+++leaflet@1.7.1/src/layer/SVGOverlay.js
+++leaflet@1.7.1/src/layer/DivOverlay.js
+++leaflet@1.7.1/src/layer/Popup.js
+++leaflet@1.7.1/src/layer/Tooltip.js
+++leaflet@1.7.1/src/layer/marker/DivIcon.js
+++leaflet@1.7.1/src/layer/marker/index.js
+++leaflet@1.7.1/src/layer/tile/GridLayer.js
+++leaflet@1.7.1/src/layer/tile/TileLayer.js
+++leaflet@1.7.1/src/layer/tile/TileLayer.WMS.js
+++leaflet@1.7.1/src/layer/tile/index.js
+++leaflet@1.7.1/src/layer/vector/Renderer.js
+++leaflet@1.7.1/src/layer/vector/Canvas.js
+++leaflet@1.7.1/src/layer/vector/SVG.VML.js
+++leaflet@1.7.1/src/layer/vector/SVG.js
+++leaflet@1.7.1/src/layer/vector/Renderer.getRenderer.js
+++leaflet@1.7.1/src/layer/vector/Rectangle.js
+++leaflet@1.7.1/src/layer/vector/index.js
+++leaflet@1.7.1/src/layer/index.js
+++leaflet@1.7.1/src/map/handler/Map.BoxZoom.js
+++leaflet@1.7.1/src/map/handler/Map.DoubleClickZoom.js
+++leaflet@1.7.1/src/map/handler/Map.Drag.js
+++leaflet@1.7.1/src/map/handler/Map.Keyboard.js
+++leaflet@1.7.1/src/map/handler/Map.ScrollWheelZoom.js
+++leaflet@1.7.1/src/map/handler/Map.Tap.js
+++leaflet@1.7.1/src/map/handler/Map.TouchZoom.js
+++leaflet@1.7.1/src/map/index.js
+++localhost꞉44397/_content/Blazor.Leaflet.OpenStreetMap/js/leaflet-map.js
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\InteropObject.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Bounds.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\DivIcon.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMapJSBinder.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\DivIconOptions.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Icon.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\IconOptions.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\LatLng.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\LatLngBounds.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Layer.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\LayerOptions.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\LeafletEventArgs.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\LeafletMap.razor.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\LeafletMouseEventArgs.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Map.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\MapOptions.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Marker.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\MarkerOptions.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Point.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\Polyline.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\PopUp.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Darnton.Blazor.Leaflet\LeafletMap\TileLayer.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Program.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Shared\MainLayout.razor
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Pages\Index.razor.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Models\MapStateViewModel.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Models\MarkerViewModel.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Actions\MarkersAction.cs
+++file://c:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\LeafletBlazorTestRig\Shared\NavMenu.razor
+++localhost꞉44397/markers/2꞉29:13
