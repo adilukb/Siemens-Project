@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Entities\\Entities.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -10022,11 +10022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-OnionArchitecture\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+      "projectUniqueName": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
       "projectName": "TasksServices",
-      "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-OnionArchitecture\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
+      "projectPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\TasksServices.csproj",
       "packagesPath": "C:\\Users\\adiluk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-OnionArchitecture\\LeafletBlazor-main\\TasksServices\\obj\\",
+      "outputPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\TasksServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adiluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10043,8 +10043,8 @@
         "net461": {
           "targetAlias": "net461",
           "projectReferences": {
-            "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-OnionArchitecture\\LeafletBlazor-main\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\adiluk\\Desktop\\siemens\\Siemens-Project-OnionArchitecture\\LeafletBlazor-main\\Repository\\Repository.csproj"
+            "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\adiluk\\Documents\\Siemens\\Siemens-Project\\LeafletBlazor-main\\Repository\\Repository.csproj"
             }
           }
         }

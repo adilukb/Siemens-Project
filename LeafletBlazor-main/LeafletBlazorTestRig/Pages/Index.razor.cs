@@ -96,8 +96,7 @@ namespace LeafletBlazorTestRig.Pages
                 var popupContent = $"{MarkerViewModel.Title}";
                 await marker.BindPopup(popupContent);
                 await marker.DisposeAsync();
-            }
-          
+            }  
         }
         protected async void PostMarkerOnLeftClick(object sender, LeafletMouseEventArgs e)
         {
@@ -146,6 +145,7 @@ namespace LeafletBlazorTestRig.Pages
      
         }  
 
+/*
         protected async void GetMarkerById()
         {
             LatLng latLng = null;
@@ -155,7 +155,7 @@ namespace LeafletBlazorTestRig.Pages
             latLng = new LatLng(str.Latitude, str.Longitude);
             await PositionMap.SetView(latLng, 12);
         }
-
+*/
         private void PositionMap_OnMoveEnd(object sender, EventArgs e)
         {
             Console.WriteLine("Map_OnMoveEnd");

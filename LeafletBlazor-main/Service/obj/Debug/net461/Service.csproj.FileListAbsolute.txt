@@ -1,0 +1,5 @@
+C:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Service\obj\Debug\net461\Service.csproj.AssemblyReference.cache
+C:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Service\obj\Debug\net461\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Service\obj\Debug\net461\Service.AssemblyInfoInputs.cache
+C:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Service\obj\Debug\net461\Service.AssemblyInfo.cs
+C:\Users\adiluk\Desktop\siemens\Siemens-Project-OnionArchitecture\LeafletBlazor-main\Service\obj\Debug\net461\Service.csproj.CoreCompileInputs.cache
