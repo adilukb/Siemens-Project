@@ -1,9 +1,0 @@
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\bin\Debug\net461\DataTransferObjects.dll
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\bin\Debug\net461\DataTransferObjects.pdb
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.csproj.AssemblyReference.cache
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.AssemblyInfoInputs.cache
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.AssemblyInfo.cs
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.csproj.CoreCompileInputs.cache
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.dll
-C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\DataTransferObjects\obj\Debug\net461\DataTransferObjects.pdb

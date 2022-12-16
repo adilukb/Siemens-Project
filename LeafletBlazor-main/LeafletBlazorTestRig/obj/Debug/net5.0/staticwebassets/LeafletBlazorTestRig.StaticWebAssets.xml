@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\LeafletBlazorTestRig\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="_content/Blazor.Leaflet.OpenStreetMap" Path="C:\Users\adiluk\Documents\Siemens\Siemens-Project\LeafletBlazor-main\Darnton.Blazor.Leaflet\wwwroot\" />
-</StaticWebAssets>
