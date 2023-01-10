@@ -49,7 +49,7 @@ namespace LeafletBlazorTestRig.Pages
 
             PositionMap.OnMoveEnd += PositionMap_OnMoveEnd;
             PositionMap.OnClick += PositionMap_OnClick;
-            PositionMap.OnContextMenu += PostMarkerOnLeftClick;
+            PositionMap.OnContextMenu += PostMarkerOnRightClick;
 
         }
 
@@ -64,7 +64,6 @@ namespace LeafletBlazorTestRig.Pages
             MapStateViewModel.MapLayerPixelOrigin = await PositionMap.GetPixelOrigin();
             StateHasChanged();
         }
-
         protected async void SetMapState()
         {
             var mapCentre = new LatLng(MapStateViewModel.MapCentreLatitude, MapStateViewModel.MapCentreLongitude);
@@ -78,31 +77,45 @@ namespace LeafletBlazorTestRig.Pages
             var action = new MarkersAction();
             var markers = await action.GetMarkers();
 
-            for(int i = 1; i < markers.Length; i++)   
+            foreach(var variablemarker in markers) 
             {
-                latLng = new LatLng(markers[i].Latitude, markers[i].Longitude);
-                MarkerViewModel = markers[i];
+                latLng = new LatLng(variablemarker.Latitude, variablemarker.Longitude);
+                /*MarkerViewModel = markers[i];*/
                 var marker = new Marker(latLng, new MarkerOptions
                 {
-                    Keyboard = MarkerViewModel.Keyboard,
-                    Title = MarkerViewModel.Title,
-                    Alt = MarkerViewModel.Alt,
-                    ZIndexOffset = MarkerViewModel.ZIndexOffset,
-                    Opacity = MarkerViewModel.Opacity,
-                    RiseOnHover = MarkerViewModel.RiseOnHover,
-                    RiseOffset = MarkerViewModel.RiseOffset,
+                    Keyboard = variablemarker.Keyboard,
+                    Title = variablemarker.Title,
+                    Alt = variablemarker.Alt,
+                    ZIndexOffset = variablemarker.ZIndexOffset,
+                    Opacity = variablemarker.Opacity,
+                    RiseOnHover = variablemarker.RiseOnHover,
+                    RiseOffset = variablemarker.RiseOffset                   
                 });
                 await marker.AddTo(PositionMap);
-                var popupContent = $"{MarkerViewModel.Title}";
+
+                var popupContent = (@"
+                <body>
+                <strong><center>" + variablemarker.Title + @"<center></strong>
+                <p>Partii:<br>
+                <strong>" + variablemarker.Slope1 + @"<br></strong>
+                <strong>" + variablemarker.Slope2 + @"<br></strong>
+                <strong>" + variablemarker.Slope3 + @"<br></strong>
+                <strong>" + variablemarker.Slope4 + @"<br></strong>
+                <button class=""btn btn-success"" onclick=""window.open('" + variablemarker.Link + @"','_blank')"">Cazare</button>
+                <img src=""" + variablemarker.Image + @""" alt=""Image"" width=""200"" height=""120"">
+                </body>");
+                
                 await marker.BindPopup(popupContent);
                 await marker.DisposeAsync();
-            }  
+            }
+            
         }
-        protected async void PostMarkerOnLeftClick(object sender, LeafletMouseEventArgs e)
+        protected async void PostMarkerOnRightClick(object sender, LeafletMouseEventArgs e)
         {
             var url = "http://localhost:5000/markers";
             var jsonSerializerOptions = new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
             LatLng latLng = null;
+            
             var mapCentre = e.LatLng;
             latLng = new LatLng(mapCentre.Lat, mapCentre.Lng);
             await PositionMap.SetView(mapCentre, 12);
@@ -117,15 +130,21 @@ namespace LeafletBlazorTestRig.Pages
                 Opacity = MarkerViewModel.Opacity,
                 RiseOnHover = MarkerViewModel.RiseOnHover,
                 RiseOffset = MarkerViewModel.RiseOffset,
+                
             });
 
             var newmarker = new MarkerViewModel
             {
                 Title = MarkerViewModel.Title,
                 Latitude = mapCentre.Lat,
-                Longitude = mapCentre.Lng
+                Longitude = mapCentre.Lng,
+                Slope1 = MarkerViewModel.Slope1,
+                Slope2 = MarkerViewModel.Slope2,
+                Slope3 = MarkerViewModel.Slope3,
+                Slope4 = MarkerViewModel.Slope4,
+                Link = MarkerViewModel.Link,
+                Image = MarkerViewModel.Image
             };
-          
             
             var contactJson = JsonConvert.SerializeObject(newmarker);
             var response = await httpClient.PostAsJsonAsync(url, newmarker);
@@ -139,23 +158,32 @@ namespace LeafletBlazorTestRig.Pages
                     jsonSerializerOptions);
 
             await markerOn.AddTo(PositionMap);
-            var popupContent = $"{MarkerViewModel.Title}";
+            var popupContent = (@"
+                <body>
+                <strong><center>" + MarkerViewModel.Title + @"<center></strong>
+                <p>Partii:<br>
+                <strong>" + MarkerViewModel.Slope1 + @"<br></strong>
+                <strong>" + MarkerViewModel.Slope2 + @"<br></strong>
+                <strong>" + MarkerViewModel.Slope3 + @"<br></strong>
+                <strong>" + MarkerViewModel.Slope4 + @"<br></strong>
+                <button class=""btn btn-success"" onclick=""window.open('" + MarkerViewModel.Link + @"','_blank')"">Cazare</button>
+                <img src=""" + MarkerViewModel.Image + @""" alt=""Image"" width=""200"" height=""120"">
+                </body>");
+            MarkerViewModel.Title = String.Empty;
             await markerOn.BindPopup(popupContent);
             await markerOn.DisposeAsync();
-     
-        }  
 
-/*
+        }
+
         protected async void GetMarkerById()
         {
             LatLng latLng = null;
-            var url = "http://localhost:5000/markers/18";
-            var http = new HttpClient();
-            var str = await http.GetFromJsonAsync<MarkerViewModel>(url);
-            latLng = new LatLng(str.Latitude, str.Longitude);
+            var action = new MarkersAction();
+            var markers = await action.GetMarkersById(7);
+            latLng = new LatLng(markers.Latitude, markers.Longitude);
             await PositionMap.SetView(latLng, 12);
         }
-*/
+
         private void PositionMap_OnMoveEnd(object sender, EventArgs e)
         {
             Console.WriteLine("Map_OnMoveEnd");

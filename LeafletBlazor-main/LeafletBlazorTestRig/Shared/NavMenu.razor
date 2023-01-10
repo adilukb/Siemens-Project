@@ -1,4 +1,8 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
+﻿@page "/{handler?}"
+@inherits Index
+@inject HttpClient Http
+
+<div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">Leaflet Blazor Test Rig</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
@@ -8,13 +12,23 @@
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/markers/2" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="/container" Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Leaflet Map
             </NavLink>
-            
         </li>
     </ul>
 </div>
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            @*<button class = "btn btn-primary" @onclick="Test">Test</button>*@  
+            <EditForm Model="MarkerViewModel" OnValidSubmit="@GetMarkerById">
+        <button type="submit" class="btn btn-primary my-3">Go to Marker</button>
+        </EditForm>
+        </li>
+    </ul>
+</div>
+
 
 @code { private bool collapseNavMenu = true;
 
@@ -23,5 +37,6 @@
             private void ToggleNavMenu()
             {
                 collapseNavMenu = !collapseNavMenu;
+
             }
     }

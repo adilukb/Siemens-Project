@@ -18,8 +18,6 @@ namespace LeafletBlazorTestRig.Actions
     {
         private static string serviceUrl = "http://localhost:5000";
 
-        public MarkerViewModel newmarker { get; set; }
-
         public async Task<MarkerViewModel[]> GetMarkers()
         {
             string tasksUrl = $"{serviceUrl}/markers";
@@ -31,6 +29,28 @@ namespace LeafletBlazorTestRig.Actions
 
             return str;
 
+        }
+        public async Task<MarkerViewModel> GetMarker()
+        {
+            string tasksUrl = $"{serviceUrl}/markers";
+
+            var http = new HttpClient();
+            var str = await http.GetFromJsonAsync<MarkerViewModel>(tasksUrl);
+
+            Console.WriteLine(str);
+
+            return str;
+
+        }
+
+        public async Task<MarkerViewModel> GetMarkersById(int Id)
+        {
+            string tasksUrl = $"{serviceUrl}/markers/{Id}";
+
+            var http = new HttpClient();
+            var str = await http.GetFromJsonAsync<MarkerViewModel>(tasksUrl);
+            Console.WriteLine(str);
+            return str;
         }
 
     }

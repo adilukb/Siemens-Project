@@ -13,6 +13,13 @@ namespace LeafletBlazorTestRig.Models
         public int RiseOffset { get; set; } = 250;
         public double Latitude { get; set; }
         public double Longitude { get; set; }
+        public string Slope1 { get; set; }
+        public string Slope2 { get; set; }
+        public string Slope3 { get; set; }
+        public string Slope4 { get; set; }
+        public string Image { get; set; }
+        public string Link { get; set; }
+
 
     }
 

@@ -10,6 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230109233358_DatabaseInitial.cs" />
+    <Compile Remove="Migrations\20230109233358_DatabaseInitial.Designer.cs" />
+    <Compile Remove="Migrations\20230109233902_DataBaseStarting.cs" />
+    <Compile Remove="Migrations\20230109233902_DataBaseStarting.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
